@@ -348,3 +348,23 @@ img::after {
         width: 0;
     }
 }
+
+@media (max-width: 1000px){
+
+    img {
+        display: none;
+    }
+
+}
+
+@media (max-width: 672px) {
+    .navbar a {
+        font-size: smaller;
+    }
+}
+
+@media (max-width: 564px) {
+    .navbar a {
+        display: none;
+    }
+}
